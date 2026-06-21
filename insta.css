@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.profile-container {
+    width: 400px;
+    margin: 20px auto;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.top-bar h4 {
+    font-size: 15px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-left {
+    margin-right: 20px;
+}
+
+.profile-pic {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
+
+.profile-right {
+    flex: 1;
+}
+
+.name {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.profile-stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-stats div {
+    flex: 1;
+}
+
+.profile-stats strong {
+    display: block;
+    font-size: 18px;
+}
+
+.profile-stats p {
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+.bio {
+    padding: 0 20px 15px;
+}
+
+.bio p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    padding: 0 20px 15px;
+}
+
+.main-btn {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #efefef;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.add-btn {
+    width: 45px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #efefef;
+    cursor: pointer;
+}
+
+.highlights {
+    display: flex;
+    gap: 20px;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.highlights div {
+    text-align: center;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ddd;
+    border: 2px solid #bbb;
+    margin-bottom: 5px;
+}
+
+.highlights p {
+    font-size: 12px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 22px;
+}
+
+.post-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+}
+
+.post-grid img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+}
